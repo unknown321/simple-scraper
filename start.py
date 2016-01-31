@@ -2,7 +2,7 @@
 
 # scrapes webpages listed in a text file (file 1)
 # looks for domains from another text file
-# if domain is found on page, then pair page url + domain is written to csv file
+# if domain is found on page, then pair [page url, domain] is written to csv file
 
 import csv
 import urllib2
